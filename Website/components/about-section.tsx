@@ -33,13 +33,13 @@ export function AboutSection() {
         >
           <div className="space-y-6">
             <p className="text-xl md:text-2xl text-foreground leading-relaxed font-light">
-              I am a passionate software engineer with a diverse background spanning 
+              I am a passionate engineering student with a diverse background spanning 
               technology, business, and social work.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
               Currently pursuing my B.Sc. in Information Engineering at HAW Hamburg, 
               I bring a unique perspective shaped by cross-cultural experiences and 
-              a commitment to solving real-world problems through code.
+              a commitment to solving real-world problems through technology-driven solutions.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
               My journey from South Korea to Germany has equipped me with adaptability, 
@@ -55,9 +55,7 @@ export function AboutSection() {
               experiences that make a difference.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              When I am not coding, you will find me exploring new technologies, 
-              contributing to open-source projects, or mentoring fellow developers 
-              in our university coding community.
+            Outside of my work, I enjoy exploring new technologies, contributing to open-source, and engaging with the university tech community through collaboration
             </p>
             
             {/* Quick stats */}
@@ -72,7 +70,7 @@ export function AboutSection() {
                 <div className="text-sm text-muted-foreground mt-1">Years Coding</div>
               </div>
               <div>
-                <div className="text-3xl md:text-4xl font-bold text-accent">10+</div>
+                <div className="text-3xl md:text-4xl font-bold text-accent">6+</div>
                 <div className="text-sm text-muted-foreground mt-1">Projects</div>
               </div>
               <div>

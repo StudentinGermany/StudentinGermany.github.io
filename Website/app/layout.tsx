@@ -14,8 +14,8 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: 'Portfolio | Software Engineer',
-  description: 'Software Engineer & Information Engineering Student - Building digital experiences with Python, Java, and modern web technologies.',
+  title: 'Portfolio | Information Engineering Student',
+  description: 'Information Engineering Student - Building digital experiences with Python, Java, and modern web technologies.',
   generator: 'v0.app',
   icons: {
     icon: [

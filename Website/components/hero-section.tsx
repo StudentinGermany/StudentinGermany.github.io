@@ -54,7 +54,7 @@ export function HeroSection() {
               className="mb-6"
             >
               <span className="text-accent text-sm md:text-base font-medium tracking-widest uppercase">
-                Software Engineer
+                Information Engineering Student
               </span>
             </motion.div>
 
@@ -76,8 +76,7 @@ export function HeroSection() {
               className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-10 leading-relaxed"
             >
               Information Engineering student at HAW Hamburg, crafting elegant solutions 
-              with Python, Java, and modern web technologies. Passionate about transforming 
-              complex problems into intuitive digital experiences.
+              with Python, Java, C and modern web technologies. Passionate about leveraging IT knowledge to solve complex real-world problems.
             </motion.p>
 
             <motion.div
@@ -86,7 +85,7 @@ export function HeroSection() {
               transition={{ duration: 0.8, delay: 0.8 }}
               className="flex flex-wrap gap-4 mb-10"
             >
-              <Button
+              {/* <Button
                 size="lg"
                 className="group bg-primary text-primary-foreground hover:bg-primary/90 px-8 py-6 text-base"
                 asChild
@@ -95,14 +94,14 @@ export function HeroSection() {
                   <Download className="mr-2 h-5 w-5 transition-transform group-hover:-translate-y-1" />
                   Download CV
                 </a>
-              </Button>
+              </Button> */}
               <Button
                 size="lg"
                 variant="outline"
                 className="border-border hover:bg-secondary px-8 py-6 text-base"
                 asChild
               >
-                <a href="https://github.com/StudentinGermany" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/StudentinGermany/StudentinGermany" target="_blank" rel="noopener noreferrer">
                   <Github className="mr-2 h-5 w-5" />
                   View GitHub
                 </a>
@@ -116,7 +115,7 @@ export function HeroSection() {
               className="flex gap-6"
             >
               <a
-                href="https://github.com/StudentinGermany"
+                href="https://github.com/StudentinGermany/StudentinGermany"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-foreground transition-colors"
@@ -124,7 +123,7 @@ export function HeroSection() {
                 <Github className="h-6 w-6" />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/eunseong-yun"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-foreground transition-colors"
@@ -132,7 +131,7 @@ export function HeroSection() {
                 <Linkedin className="h-6 w-6" />
               </a>
               <a
-                href="mailto:contact@example.com"
+                href="mailto:aydenyun.germany@gmail.com"
                 className="text-muted-foreground hover:text-foreground transition-colors"
               >
                 <Mail className="h-6 w-6" />

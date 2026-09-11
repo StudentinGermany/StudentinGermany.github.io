@@ -14,8 +14,20 @@ const projects = [
     description:
       "Co-developing the Coders Club Website as the club's central platform for onboarding and project visibility. Driving community engagement through event coordination, member onboarding, and knowledge-sharing initiatives.",
     tags: ["Next.js", "Tailwind CSS", "AWS S3", "CloudFront", "Route 53", "Lambda"],
-    github: "https://github.com/StudentinGermany",
+    github: "https://www.coders-club.dev/en/home/",
+    hideGithubIcon: true,
   },
+
+  {
+    title: "Asteroid_Movement_Algorithms",
+    category: "University Project-Ongoing",
+    period: "Python",
+    description:
+      "Developed a benchmarking framework to compare astronomical moving-object detection algorithms, including FindPOTATOs and Heliolinc.",
+    tags: ["Python", "C++"],
+    github: "https://github.com/StudentinGermany/StudentinGermany/tree/main/Asteroid_Movement_Algorithms",
+  },
+  
   {
     title: "NASA Cosmic Data Analysis",
     category: "University Project",
@@ -23,7 +35,7 @@ const projects = [
     description:
       "Processed NASA cosmic data with healpy/anafast. Built visualizations with Pandas, NumPy, Matplotlib, and Seaborn. Explored ML fundamentals.",
     tags: ["Python", "NumPy", "Matplotlib", "Seaborn", "Healpy"],
-    github: "https://github.com/StudentinGermany/StudentinGermany",
+    github: "https://github.com/StudentinGermany/StudentinGermany/tree/main/Python/Cosmic%20Technology",
   },
   {
     title: "Robotics Project",
@@ -41,7 +53,7 @@ const projects = [
     description:
       "Analysed COVID-19 public health datasets using CTEs, window functions, and aggregations to extract insights on case rates and outcomes.",
     tags: ["SQL", "CTEs", "Window Functions", "Data Analysis"],
-    github: "https://github.com/StudentinGermany/StudentinGermany",
+    github: "https://github.com/StudentinGermany/StudentinGermany/tree/main/MySQL",
   },
   {
     title: "Decorator Pattern Implementation",
@@ -50,7 +62,7 @@ const projects = [
     description:
       "Implemented the Decorator design pattern to model extensible object behaviour in Java.",
     tags: ["Java", "Design Patterns", "OOP"],
-    github: "https://github.com/StudentinGermany/StudentinGermany",
+    github: "https://github.com/StudentinGermany/StudentinGermany/tree/main/Java/Kangaroo-Decorator%20Pattern",
   },
   {
     title: "E2E Testing Suite",
@@ -59,7 +71,7 @@ const projects = [
     description:
       "Wrote end-to-end test suites in Cypress for a web application, ensuring quality and reliability.",
     tags: ["Cypress", "E2E Testing", "QA", "JavaScript"],
-    github: "https://github.com/StudentinGermany/StudentinGermany",
+    github: "https://github.com/StudentinGermany/StudentinGermany/tree/main/Quality%20Assurance",
   },
 ];
 
@@ -119,7 +131,7 @@ export function ProjectsSection() {
                           {project.period}
                         </span>
                       </div>
-                      {project.github && (
+                      {project.github && !project.hideGithubIcon &&(
                         <a
                           href={project.github}
                           target="_blank"

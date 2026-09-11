@@ -11,7 +11,7 @@ const contactLinks = [
     icon: Github,
     label: "GitHub",
     value: "StudentinGermany",
-    href: "https://github.com/StudentinGermany",
+    href: "https://github.com/StudentinGermany/StudentinGermany",
   },
   {
     icon: Linkedin,
@@ -23,7 +23,7 @@ const contactLinks = [
     icon: Mail,
     label: "Email",
     value: "aydenyun.germany@gmail.com",
-    href: "mailto:contact@example.com",
+    href: "mailto:aydenyun.germany@gmail.com",
   },
   {
     icon: MapPin,
@@ -53,7 +53,7 @@ export function ContactSection() {
             {"Let's Work Together"}
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto mt-6 leading-relaxed">
-            {"I'm currently looking for opportunities in software engineering. Whether you have a question or just want to say hi, feel free to reach out!"}
+            {"I’m currently open to opportunities in technology and engineering, and always happy to connect—whether you have a question or just want to say hi., feel free to reach out!"}
           </p>
         </motion.div>
 
@@ -104,7 +104,7 @@ export function ContactSection() {
           transition={{ duration: 0.6, delay: 0.5 }}
           className="text-center"
         >
-          <Button
+          {/* <Button
             size="lg"
             className="group bg-primary text-primary-foreground hover:bg-primary/90 px-10 py-7 text-lg"
             asChild
@@ -113,7 +113,7 @@ export function ContactSection() {
               <Download className="mr-2 h-5 w-5 transition-transform group-hover:-translate-y-1" />
               Download My CV
             </a>
-          </Button>
+          </Button> */}
         </motion.div>
       </div>
     </section>

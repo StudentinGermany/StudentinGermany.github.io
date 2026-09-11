@@ -7,23 +7,34 @@ import { Briefcase, ArrowUpRight, ChevronDown, Users, MessageSquare, Lightbulb, 
 
 const experiences = [
   {
-    title: "Software Engineer - Working Student",
-    company: "GMKtec GmbH",
-    period: "Feb 2026 - March 2026",
+    // title: "Software Engineer - Working Student",
+    // company: "GMKtec GmbH",
+    // period: "Feb 2026 - March 2026",
+    // highlights: [
+    //   "Developed frontend and backend components with RESTful APIs, automating end-to-end speed camera case processing through structured data mapping and digitisation.",
+    //   "Built a test data generator and CSV-to-DOCX converter, mapping and transforming raw data into editable documents for internal staff.",
+    //   "Translated business requirements into functional UI, handling data integration and validation across processing stages.",
+    // ],
+    // tags: ["REST APIs", "Frontend", "Backend", "Data Processing"],
+
+    title: "Military Communications Specialist",
+    company: "Republic of Korean Army",
+    period: "2013 - 2015",
     highlights: [
-      "Developed frontend and backend components with RESTful APIs, automating end-to-end speed camera case processing through structured data mapping and digitisation.",
-      "Built a test data generator and CSV-to-DOCX converter, mapping and transforming raw data into editable documents for internal staff.",
-      "Translated business requirements into functional UI, handling data integration and validation across processing stages.",
+      "Ensured 99% operational readiness of base communication systems through maintenance and troubleshooting.",
+      "Diagnosed and repaired telecommunications equipment to minimize downtime and enhance system reliability.",
+      "Led installation of large-scale communication infrastructure and provided training/support to personnel during base construction.",
     ],
-    tags: ["REST APIs", "Frontend", "Backend", "Data Processing"],
+    tags: ["Leadership", "Crisis Management", "Technical Operations", "Team Coordination"],
   },
 ];
 
 const otherExperience = [
   {
-    title: "Military Communications Specialist",
-    description: "Managed critical communication systems and coordinated team operations in high-pressure environments.",
-    skills: ["Leadership", "Crisis Management", "Technical Operations", "Team Coordination"],
+    title: "Software Developer - Working Student",
+    description: "Developed and integrated full-stack (frontend/backend) RESTful solutions to automate end-to-end speed camera case processing, including data mapping and document generation, reducing manual processing time by an average of 25 ms per document and ensuring fully validated authorization data.",
+    skills: [
+      "REST APIs", "Frontend", "Backend", "Data Processing"],
     icon: Users,
   },
   {
