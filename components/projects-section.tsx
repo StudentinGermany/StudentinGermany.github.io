@@ -19,11 +19,11 @@ const projects = [
   },
   {
     title: "Asteroid_Movement_Algorithms",
-    category: "University Project-Ongoing",
+    category: "University Project - Ongoing",
     period: "Python",
     description:
       "Developed a benchmarking framework to compare astronomical moving-object detection algorithms, including FindPOTATOs and Heliolinc.",
-    tags: ["Python", "NumPy", "Matplotlib", "Seaborn", "Healpy"],
+    tags: ["Python", "C++"],
     github: "https://github.com/StudentinGermany/StudentinGermany/tree/main/Asteroid_Movement_Algorithms",
   },
   {

@@ -70,7 +70,7 @@ export function AboutSection() {
                 <div className="text-sm text-muted-foreground mt-1">Years Coding</div>
               </div>
               <div>
-                <div className="text-3xl md:text-4xl font-bold text-accent">6+</div>
+                <div className="text-3xl md:text-4xl font-bold text-accent">7+</div>
                 <div className="text-sm text-muted-foreground mt-1">Projects</div>
               </div>
               <div>
