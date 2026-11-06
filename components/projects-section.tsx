@@ -17,6 +17,21 @@ const projects = [
     github: "https://www.coders-club.dev/en/home/",
     hideGithubIcon: true,
   },
+
+  {
+    title: "AI Growth Engineering Experiments",
+    category: "Experiment Project",
+    period: "October 2026",
+    description:
+      "Built three live AI tools for trade businesses (website check, weather-based scheduling, voice job notes) and scoped a fourth idea before stopping it. Each experiment has a hypothesis, funnel metric, pass/kill criteria, and an honest account of its limits. Code extracts the facts and does the maths, so the AI cannot invent numbers.",
+    tags: ["Cloudflare Workers", "Workers AI", "Whisper", "Llama 3.1", "Open-Meteo", "JavaScript", "GitHub Pages"],
+    links: [
+      { label: "Website Quick Check", href: "https://studentingermany.github.io/ai-growth-engineering/website-check.html" },
+      { label: "Weather Work Window", href: "https://studentingermany.github.io/ai-growth-engineering/weather-schedule.html" },
+      { label: "Voice Job Note", href: "https://studentingermany.github.io/ai-growth-engineering/voice-note.html" },
+    ],
+  },
+
   {
     title: "Asteroid_Movement_Algorithms",
     category: "University Project - Ongoing",
